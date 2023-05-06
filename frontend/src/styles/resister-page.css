@@ -1,0 +1,10 @@
+.section-register .form-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: cnter;
+}
+
+.section-register .form-box form {
+  width: 100%;
+}

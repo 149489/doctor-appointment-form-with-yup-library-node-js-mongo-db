@@ -1,18 +1,21 @@
 {
-  "name": "form-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Submit data in backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cla": "^0.0.1",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongodb": "^5.3.0",
-    "mongoose": "^7.1.0"
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
